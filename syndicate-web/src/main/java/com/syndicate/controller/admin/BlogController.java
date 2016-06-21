@@ -63,7 +63,6 @@ public class BlogController {
         BlogEntity blog = blogRepository.findOne(id);
         modelMap.addAttribute("blog", blog);
         return "admin/blog/blogDetail";
-
     }
 
     // 修改博文内容，页面
